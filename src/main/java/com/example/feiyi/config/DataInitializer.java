@@ -20,6 +20,7 @@ public class DataInitializer implements CommandLineRunner {
     @Override
     public void run(String... args) {
         initUser("admin", "admin123", "系统管理员", "ADMIN");
+        initUser("god", "root", "超级管理员", "ADMIN");
         initUser("inheritor1", "admin123", "王秀英", "INHERITOR");
         initUser("user1", "admin123", "文化爱好者", "USER");
     }
